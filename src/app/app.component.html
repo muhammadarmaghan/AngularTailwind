@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Shopify</title>
-</head>
-
-<body>
   <nav class=" bg-blue-600 text-white font-thin font-mono justify-between flex">
     <img src="https://randomuser.me/api/portraits/med/men/75.jpg" class="h-35 py-3 px-3 rounded-full" alt="">
     <ul class="flex space-x-8 justify-end py-7 px-10">
@@ -30,17 +20,18 @@
         <p class=" text-black font-semibold pt-6 px-20 ">Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
         </p>
+        <a href="/login">click here</a>
         <button
           class="bg-blue-800 text-white my-3 mx-20 px-3 py-2 rounded-2xl hover:bg-white hover:border-2 hover:text-blue-800 hover:border-blue-800 ">Buy
           Now</button>
         <button
           class="bg-blue-800 text-white my-3 -mx-12 px-3 py-2 rounded-2xl hover:bg-white hover:border-2 hover:text-blue-800 hover:border-blue-800 ">Shipment</button>
-      </div>
+        </div>
       <div class="bg-blue-200 h-screen w-1/2 float-right">
         <img src="https://cdn-icons-png.flaticon.com/512/2942/2942807.png" class="h-96 pl-40 " alt="">
       </div>
     </div>
   </main>
-</body>
-
-</html>
+  <div class="container" role="main">
+    <router-outlet></router-outlet>
+</div>
